@@ -1,5 +1,5 @@
 {
-    "name": "TsLangUtils",
+    "name": "Typescript Lang Utils",
     "entryPoints": [
         "src/index.ts"
     ],
@@ -19,27 +19,27 @@
     ],
     "includeVersion": false,
     "navigationLinks": {
-        "GitHub": "https://github.com/unikueltd/ts-lang-utils",
-        "Unikue": "https://unikue.cn"
+        "GitHub": "https://github.com/jiovan-labs/ts-lang-utils",
+        "Jiovan": "https://jiovan.com"
     },
     "plugin": [
-        "@unikue/typedoc-plugin-raw-content",
-        "@unikue/typedoc-theme-dumi"
+        "@jiovan-labs/typedoc-plugin-raw-content",
+        "@jiovan-labs/typedoc-theme-dumi"
     ],
     "theme": "dumi",
     "rawHeadEnds": [
-        "<meta name='keywords' content='typescript, unikue, ts-lang-utils'/>"
+        "<meta name='keywords' content='typescript, jiovan, ts-lang-utils'/>"
     ],
     "rawFooterEnds": [
-        "<div style='text-align: center'>Copyright &copy; 2026 Unikue Ltd. All rights reserved</div>"
+        "<div style='text-align: center'>Copyright &copy; 2026 Jiovan Ltd. All rights reserved</div>"
     ],
-    "logoImage": "https://unikueltd.github.io/assets/ico/logo-icon.svg",
+    "logoImage": "https://jiovan-labs.github.io/assets/ico/logo-icon.svg",
     "logoWidth": 32,
     "logoHeight": 32,
-    "logoTitle": "@unikue/ts-lang-utils",
+    "logoTitle": "@jiovan-labs/ts-lang-utils",
     "navigationLinkTargets": {
         "GitHub": "_blank",
-        "Unikue": "_blank"
+        "Jiovan": "_blank"
     },
     "footerAlign": "center"
 }

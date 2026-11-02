@@ -1,10 +1,10 @@
 {
-    "name": "@unikue/ts-lang-utils",
-    "version": "1.3.2",
-    "title": "TsLangUtils",
+    "name": "@jiovan-labs/ts-lang-utils",
+    "version": "2.0.0",
+    "title": "Typescript Lang Utils",
     "description": "Common lang utilities for typescript",
-    "homepage": "https://unikueltd.github.io/ts-lang-utils",
-    "organization": "Unikue Ltd",
+    "homepage": "https://jiovan-labs.github.io/ts-lang-utils",
+    "organization": "Jiovan Ltd",
     "private": false,
     "license": "MIT",
     "keywords": [
@@ -42,6 +42,7 @@
     "types": "dist/esm/index.d.ts",
     "sideEffects": false,
     "scripts": {
+        "approve": "npm approve-scripts --allow-scripts-pending",
         "build": "del-cli ./dist && father build",
         "doctor": "father doctor",
         "docs:build": "typedoc --out ./docs-dist",
@@ -53,64 +54,63 @@
         "upgrade": "npx npm-check-updates --target semver -u"
     },
     "dependencies": {
-        "@babel/runtime": "^7.29.7",
+        "@babel/runtime": "^7.29.10",
         "@imranbarbhuiya/duration": "^5.1.8",
-        "libphonenumber-js": "^1.13.13",
+        "libphonenumber-js": "^1.13.15",
         "lodash": "^4.18.1",
-        "nanoid": "^3.3.19",
+        "nanoid": "^3.3.20",
         "universal-cookie": "^8.1.2"
     },
     "devDependencies": {
         "@eslint/eslintrc": "^3.3.7",
         "@eslint/js": "^10.0.1",
         "@types/jest": "^30.0.0",
-        "@types/lodash": "^4.17.25",
-        "@unikue/babel-plugin-remove-comment": "^1.2.1",
-        "@unikue/typedoc-plugin-raw-content": "^1.1.1",
-        "@unikue/typedoc-theme-dumi": "^1.1.3",
+        "@types/lodash": "^4.17.27",
+        "@jiovan-labs/babel-plugin-remove-comment": "^2.0.0",
+        "@jiovan-labs/typedoc-plugin-raw-content": "^2.0.0",
+        "@jiovan-labs/typedoc-theme-dumi": "^2.0.0",
         "del-cli": "^7.0.0",
-        "eslint": "^10.10.0",
-        "eslint-plugin-jest": "^29.16.6",
-        "father": "^4.6.37",
+        "eslint": "^10.14.0",
+        "eslint-plugin-jest": "^29.17.0",
+        "father": "^4.6.41",
         "gh-pages": "^6.3.0",
-        "globals": "^17.12.0",
-        "jest-environment-jsdom": "^30.5.1",
-        "ts-jest": "^29.4.12",
+        "globals": "^17.14.0",
+        "jest-environment-jsdom": "^30.5.2",
+        "ts-jest": "^29.4.15",
         "typedoc": "~0.28.20",
         "typescript": "^6.0.3",
-        "typescript-eslint": "^8.70.0"
+        "typescript-eslint": "^8.72.1"
     },
     "peerDependencies": {
         "typescript": ">=4.0.0"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/unikueltd/ts-lang-utils.git"
+        "url": "git+https://github.com/jiovan-labs/ts-lang-utils.git"
     },
     "bugs": {
-        "url": "https://github.com/unikueltd/ts-lang-utils/issues"
+        "url": "https://github.com/jiovan-labs/ts-lang-utils/issues"
     },
     "publishConfig": {
         "access": "public",
         "registry": "https://registry.npmjs.org"
     },
     "collective": {
-        "url": "https://opencollective.com/unikue-awesome"
+        "url": "https://opencollective.com/jiovan-labs"
     },
     "funding": [
         {
             "type": "opencollective",
-            "url": "https://opencollective.com/unikue-awesome"
+            "url": "https://opencollective.com/jiovan-labs"
         },
         {
             "type": "individual",
-            "url": "https://unikue.cn/donation"
+            "url": "https://jiovan.com/donation"
         }
     ],
     "author": {
-        "name": "Unikue Ltd",
-        "email": "unikue@yeah.net",
-        "url": "https://unikue.cn"
+        "name": "Jiovan Ltd",
+        "url": "https://jiovan.com"
     },
     "contributors": [
         {
@@ -120,10 +120,11 @@
         }
     ],
     "allowScripts": {
-        "core-js@*": true,
-        "core-js-pure@*": true,
-        "esbuild@*": true,
-        "fsevents@*": true,
-        "unrs-resolver@*": true
+        "@parcel/watcher": true,
+        "core-js": true,
+        "core-js-pure": true,
+        "esbuild": true,
+        "fsevents": true,
+        "unrs-resolver": true
     }
 }

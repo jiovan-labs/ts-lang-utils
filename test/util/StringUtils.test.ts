@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Unikue Ltd. All rights reserved.
+ * Copyright (c) 2023 Jiovan Ltd. All rights reserved.
  *
  * Licensed under the MIT License.
  *
@@ -15,7 +15,7 @@
  */
 
 
-import { StringUtils } from '@unikue/ts-lang-utils';
+import { StringUtils } from '@jiovan-labs/ts-lang-utils';
 
 
 describe('StringUtils.test', () => {

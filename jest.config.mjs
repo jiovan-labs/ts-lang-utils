@@ -3,8 +3,8 @@ const commonConfig = {
     moduleNameMapper: {
         '^@$': '<rootDir>/src',
         '^@/(.*)$': '<rootDir>/src/$1',
-        '^@unikue/ts-lang-utils$': '<rootDir>/src',
-        '^@unikue/ts-lang-utils/(.*)$': '<rootDir>/src/$1'
+        '^@jiovan-labs/ts-lang-utils$': '<rootDir>/src',
+        '^@jiovan-labs/ts-lang-utils/(.*)$': '<rootDir>/src/$1'
     },
     transform: {
         '^.+\\.tsx?$': ['ts-jest', {

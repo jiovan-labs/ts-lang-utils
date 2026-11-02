@@ -19,10 +19,10 @@
             "@/*": [
                 "./src/*"
             ],
-            "@unikue/ts-lang-utils": [
+            "@jiovan-labs/ts-lang-utils": [
                 "./src"
             ],
-            "@unikue/ts-lang-utils/*": [
+            "@jiovan-labs/ts-lang-utils/*": [
                 "./src/*"
             ]
         }

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Unikue Ltd. All rights reserved.
+ * Copyright (c) 2023 Jiovan Ltd. All rights reserved.
  *
  * Licensed under the MIT License.
  *
@@ -15,15 +15,15 @@
  */
 
 
-import { UriUtils } from '@unikue/ts-lang-utils';
+import { UriUtils } from '@jiovan-labs/ts-lang-utils';
 
 
 describe('UriUtils.test', () => {
     test('Testing appendParam', () => {
         expect(UriUtils.appendParam(undefined, 'foo=bar')).toBe('foo=bar');
-        expect(UriUtils.appendParam('unikue.cn/donation', undefined)).toBe('unikue.cn/donation');
-        expect(UriUtils.appendParam('unikue.cn/donation', 'foo=bar')).toBe('unikue.cn/donation?foo=bar');
-        expect(UriUtils.appendParam('unikue.cn/donation?from=today', 'foo=bar')).toBe('unikue.cn/donation?from=today&foo=bar');
+        expect(UriUtils.appendParam('jiovan.com/donation', undefined)).toBe('jiovan.com/donation');
+        expect(UriUtils.appendParam('jiovan.com/donation', 'foo=bar')).toBe('jiovan.com/donation?foo=bar');
+        expect(UriUtils.appendParam('jiovan.com/donation?from=today', 'foo=bar')).toBe('jiovan.com/donation?from=today&foo=bar');
     });
 
     test('Testing isHttp', () => {
