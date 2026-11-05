@@ -98,7 +98,7 @@ import { SessionStorage } from '@jiovan-labs/ts-lang-utils';
 
 ## 版權
 
-北京攸科網絡科技有限公司
+北京玖漫科技有限公司
 
 ## 网站
 

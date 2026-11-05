@@ -1,6 +1,6 @@
 {
     "name": "@jiovan-labs/ts-lang-utils",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "title": "Typescript Lang Utils",
     "description": "Common lang utilities for typescript",
     "homepage": "https://jiovan-labs.github.io/ts-lang-utils",
